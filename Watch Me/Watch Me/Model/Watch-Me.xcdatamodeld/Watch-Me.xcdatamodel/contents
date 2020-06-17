@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cast" representedClassName="Cast" syncable="YES" codeGenerationType="class">
+        <attribute name="castId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="character" optional="YES" attributeType="String"/>
+        <attribute name="creditId" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="order" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="profilePath" optional="YES" attributeType="String"/>
+        <relationship name="movie" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Movie" inverseName="casts" inverseEntity="Movie"/>
+    </entity>
+    <entity name="Movie" representedClassName="Movie" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="isFavourite" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isNowPlaying" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPopular" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="posterPath" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="releaseDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="runtime" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="casts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Cast" inverseName="movie" inverseEntity="Cast"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="movies" inverseEntity="Person"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
+        <attribute name="biography" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="placeOfBirth" optional="YES" attributeType="String"/>
+        <attribute name="profilePath" optional="YES" attributeType="String"/>
+        <relationship name="movies" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Movie" inverseName="person" inverseEntity="Movie"/>
+    </entity>
+    <elements>
+        <element name="Cast" positionX="-78.58984375" positionY="26.625" width="128" height="178"/>
+        <element name="Movie" positionX="-321.5859375" positionY="150.609375" width="128" height="238"/>
+        <element name="Person" positionX="-590.38671875" positionY="209.875" width="128" height="148"/>
+    </elements>
+</model>

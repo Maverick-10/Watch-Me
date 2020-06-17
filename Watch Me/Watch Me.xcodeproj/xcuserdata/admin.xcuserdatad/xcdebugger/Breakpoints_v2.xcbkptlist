@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "74B6888A-16B1-4350-8AC7-F60AE4A5E15B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBED0200-9F0E-401A-AD71-1F9E7CA26B70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Watch Me/Controller/DiscoverViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4263C367-6630-49DD-8D3B-214EA20F72EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Watch Me/Controller/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "handleSearchResponse(response:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB970C5F-B620-4EEB-848D-1697FF0CD58A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Watch Me/Model/Client/WMClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "taskForGETRequest(url:response:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB970C5F-B620-4EEB-848D-1697FF0CD58A - e5b284f5bb521cb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Watch_Me.WMClient.taskForGETRequest&lt;A where A: Swift.Decodable&gt;(url: Foundation.URL, response: A.Type, completion: (Swift.Optional&lt;A&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; __C.NSURLSessionDataTask"
+                  moduleName = "Watch Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/Development/iOS/Udacity/Watch%20Me/Watch%20Me/Model/Client/WMClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "896">
+               </Location>
+               <Location
+                  uuid = "EB970C5F-B620-4EEB-848D-1697FF0CD58A - 455b13599055fc5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Watch_Me.WMClient.taskForGETRequest&lt;A where A: Swift.Decodable&gt;(url: Foundation.URL, response: A.Type, completion: (Swift.Optional&lt;A&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; __C.NSURLSessionDataTask"
+                  moduleName = "Watch Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/Development/iOS/Udacity/Watch%20Me/Watch%20Me/Model/Client/WMClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A3A7236-1290-47BF-ABE0-8F86753DBF4D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Watch Me/Model/Client/WMClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "taskForGETRequest(url:response:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7A3A7236-1290-47BF-ABE0-8F86753DBF4D - e5b284f5bb521cb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Watch_Me.WMClient.taskForGETRequest&lt;A where A: Swift.Decodable&gt;(url: Foundation.URL, response: A.Type, completion: (Swift.Optional&lt;A&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; __C.NSURLSessionDataTask"
+                  moduleName = "Watch Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/Development/iOS/Udacity/Watch%20Me/Watch%20Me/Model/Client/WMClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1691">
+               </Location>
+               <Location
+                  uuid = "7A3A7236-1290-47BF-ABE0-8F86753DBF4D - f001072dc4daa824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Watch_Me.WMClient.taskForGETRequest&lt;A where A: Swift.Decodable&gt;(url: Foundation.URL, response: A.Type, completion: (Swift.Optional&lt;A&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; __C.NSURLSessionDataTask"
+                  moduleName = "Watch Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/Development/iOS/Udacity/Watch%20Me/Watch%20Me/Model/Client/WMClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
