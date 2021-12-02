@@ -1,9 +1,10 @@
 
-# Watch Me!
 
 Watch Me!  This app uses [themoviedb.org](https://www.themoviedb.org) APIs to fetch all the details about movies. 
 
 This is my capstone project for the iOS Developer Nanodegree program.
+
+# Watch Me!
 
 ## Requirement
 
